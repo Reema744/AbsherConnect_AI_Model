@@ -1,0 +1,13 @@
+[project]
+name = "absher-connect-backend"
+version = "0.1.0"
+description = "AI-powered proactive notifications for Absher Connect"
+requires-python = ">=3.11"
+
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pandas",
+    "numpy",
+    "scikit-learn"
+]
